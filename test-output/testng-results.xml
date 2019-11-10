@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="11119" started-at="2019-10-20T17:29:41Z" finished-at="2019-10-20T17:29:52Z">
+    <groups>
+    </groups>
+    <test name="Introduction" duration-ms="11119" started-at="2019-10-20T17:29:41Z" finished-at="2019-10-20T17:29:52Z">
+      <class name="testNG.TNG07_Properties">
+        <test-method status="PASS" signature="Login()[pri:0, instance:testNG.TNG07_Properties@7c30a502]" name="Login" duration-ms="11070" started-at="2019-10-20T19:29:41Z" finished-at="2019-10-20T19:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- testNG.TNG07_Properties -->
+    </test> <!-- Introduction -->
+  </suite> <!-- Default Suite -->
+</testng-results>

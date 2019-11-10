@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test name="Introduction(failed)">
+    <classes>
+      <class name="testNG.TNG07_Properties">
+        <methods>
+          <include name="BeforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="BeforeSuite"/>
+          <include name="AfterSuite"/>
+          <include name="afterMethod"/>
+          <include name="Login"/>
+          <include name="AfterClass"/>
+        </methods>
+      </class> <!-- testNG.TNG07_Properties -->
+    </classes>
+  </test> <!-- Introduction(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

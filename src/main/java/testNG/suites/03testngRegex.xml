@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Dep">
+    <test name="Personal Loan">
+
+        <classes>
+            <class name="testNG.TNG01_Intro">
+                <methods>
+                    <include name="Demo"/>
+                </methods>
+            </class>
+            <class name="testNG.TNG02_Intro"/>
+
+        </classes>
+
+    </test>
+    <test name="Car Loan">
+
+        <classes>
+            <class name="testNG.TNG03_Login">
+                <methods>
+                    <exclude name="Mobile.*"/>
+                </methods>
+            </class>
+            <class name="testNG.TNG04_HomeLogin"/>
+
+        </classes>
+
+    </test>
+</suite>

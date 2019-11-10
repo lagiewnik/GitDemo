@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Dep">
+    <listeners>
+        <listener class-name="testNG.TNG06_Listeners"/>
+        
+    </listeners>
+    <parameter name="URL" value="www.wp.pl"/>
+
+    <test name="Loan ">
+        <parameter name="URL" value="www.loan.pl"/>
+        <parameter name="USRname" value="maniek loan"/>
+        <classes>
+
+            <class name="testNG.TNG01_Intro"/>
+            <class name="testNG.TNG02_Intro"/>
+
+
+        </classes>
+
+    </test>
+    <test name="Leasing">
+        <parameter name="URL" value="www.leasing.pl"/>
+        <parameter name="USRname" value="mietek lizingowy"/>
+        <classes>
+
+            <class name="testNG.TNG04_HomeLogin"/>
+            <class name="testNG.TNG03_Login"/>
+            <class name="testNG.TNG05_LoginWithDataProvider"/>
+            <class name="testNG.TNG06_Listeners" />
+
+        </classes>
+
+    </test>
+
+</suite>

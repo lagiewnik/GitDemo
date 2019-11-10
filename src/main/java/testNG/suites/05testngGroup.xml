@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Dep">
+    <test name="Regresion">
+        <groups>
+            <run>
+                <!--<include name="Smoke"/>-->
+                <exclude name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testNG.TNG01_Intro"/>
+            <class name="testNG.TNG02_Intro"/>
+            <class name="testNG.TNG04_HomeLogin"/>
+            <class name="testNG.TNG03_Login"/>
+
+        </classes>
+
+    </test>
+
+</suite>
